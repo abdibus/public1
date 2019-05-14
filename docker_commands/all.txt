@@ -1,0 +1,8 @@
+docker run --rm --name stepik-task -it ubuntu:14.04
+docker run --rm -it -v /home:/home ubuntu:14.04
+docker ps -a
+docker stop
+docker rm
+docker rmi
+docker run
+
