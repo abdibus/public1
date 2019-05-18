@@ -6,3 +6,4 @@ docker rm
 docker rmi
 docker run
 docker run -d --name port-export -p <port_on_host_machine>:<port_inside_container> image
+docker network ls
