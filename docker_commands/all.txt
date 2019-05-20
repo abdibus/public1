@@ -7,3 +7,9 @@ docker rmi
 docker run
 docker run -d --name port-export -p <port_on_host_machine>:<port_inside_container> image
 docker network ls
+
+
+
+docker create newtwork
+docker network ls
+docker run -rm -it --network custom --name one ubuntu:14.04
