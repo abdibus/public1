@@ -13,4 +13,3 @@ docker network ls
 docker create newtwork
 docker network ls
 docker run -rm -it --network custom --name one ubuntu:14.04docker commit <container_name> <image_name> - create image from container
-docker history <image_name>
